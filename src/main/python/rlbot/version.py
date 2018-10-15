@@ -3,9 +3,14 @@
 # 2) we can import it in setup.py for the same reason
 # 3) we can import it into your module module
 # https://stackoverflow.com/questions/458550/standard-way-to-embed-version-into-python-package
-__version__ = '0.0.32'
+__version__ = '0.0.33'
 
 release_notes = {
+    '0.0.33': """
+    Hello! You need to do a tiny bit of work to keep getting framework 
+    updates because we've moved to 1.0! Follow this easy guide: 
+    https://github.com/RLBot/RLBot/wiki/Version-1.0-Update-Guide
+    """,
     '0.0.32': """
     More comprehensive fix for Rocket League patch 1.50. Compared to previous version:
     - Dropshot tile data is fixed
@@ -39,15 +44,14 @@ release_notes = {
 }
 
 release_banner = """
-
-           ______ _     ______       _
-     10100 | ___ \ |    | ___ \     | |   00101
-    110011 | |_/ / |    | |_/ / ___ | |_  110011
-  00110110 |    /| |    | ___ \/ _ \| __| 01101100
-    010010 | |\ \| |____| |_/ / (_) | |_  010010
-     10010 \_| \_\_____/\____/ \___/ \__| 01001
-
-
+██████████████████████████████████████████████████████████
+  _   _                           _        ____  _     
+ | | | |_ __   __ _ _ __ __ _  __| | ___  |  _ \| |___ 
+ | | | | '_ \ / _` | '__/ _` |/ _` |/ _ \ | |_) | / __|
+ | |_| | |_) | (_| | | | (_| | (_| |  __/ |  __/| \__ \\
+  \___/| .__/ \__, |_|  \__,_|\__,_|\___| |_|   |_|___/
+       |_|    |___/                                    
+██████████████████████████████████████████████████████████
 """
 
 
